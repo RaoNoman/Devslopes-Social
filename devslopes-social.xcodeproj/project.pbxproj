@@ -13,6 +13,11 @@
 		3F1429E81FA649E000C9A1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1429E71FA649E000C9A1CE /* Assets.xcassets */; };
 		3F1429EB1FA649E000C9A1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1429E91FA649E000C9A1CE /* LaunchScreen.storyboard */; };
 		3F1429F31FA64AC900C9A1CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F1429F21FA64AC900C9A1CE /* GoogleService-Info.plist */; };
+		3F91B8D41FA6EF0200291C1C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D31FA6EF0200291C1C /* Constants.swift */; };
+		3F91B8D61FA6EF3600291C1C /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D51FA6EF3600291C1C /* FancyView.swift */; };
+		3F91B8D81FA6F14C00291C1C /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D71FA6F14C00291C1C /* RoundBtn.swift */; };
+		3F91B8DA1FA6F30800291C1C /* FancyFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D91FA6F30800291C1C /* FancyFields.swift */; };
+		3F91B8DC1FA6F7DC00291C1C /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8DB1FA6F7DC00291C1C /* FancyBtn.swift */; };
 		D79F1C5320373498AEB705C2 /* Pods_devslopes_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3ED385503E2DBDEAE6023F /* Pods_devslopes_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +30,11 @@
 		3F1429EA1FA649E000C9A1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1429EC1FA649E000C9A1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1429F21FA64AC900C9A1CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F91B8D31FA6EF0200291C1C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3F91B8D51FA6EF3600291C1C /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		3F91B8D71FA6F14C00291C1C /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		3F91B8D91FA6F30800291C1C /* FancyFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyFields.swift; sourceTree = "<group>"; };
+		3F91B8DB1FA6F7DC00291C1C /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		5E3ED385503E2DBDEAE6023F /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C618DBA7A2A12C8502CD2F94 /* Pods-devslopes-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.release.xcconfig"; sourceTree = "<group>"; };
 		FD8EE8A14F362FCA378C3060 /* Pods-devslopes-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +73,7 @@
 		3F1429DF1FA649E000C9A1CE /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				3F91B8D21FA6EEF200291C1C /* Utilities */,
 				3F1429F61FA64EA300C9A1CE /* Model */,
 				3F1429F51FA64E9B00C9A1CE /* View */,
 				3F1429F41FA64E9000C9A1CE /* Controller */,
@@ -87,6 +98,10 @@
 		3F1429F51FA64E9B00C9A1CE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F91B8D51FA6EF3600291C1C /* FancyView.swift */,
+				3F91B8D71FA6F14C00291C1C /* RoundBtn.swift */,
+				3F91B8D91FA6F30800291C1C /* FancyFields.swift */,
+				3F91B8DB1FA6F7DC00291C1C /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -96,6 +111,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		3F91B8D21FA6EEF200291C1C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3F91B8D31FA6EF0200291C1C /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		6038AF07B5C18CE39B1339BD /* Frameworks */ = {
@@ -252,8 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F91B8DA1FA6F30800291C1C /* FancyFields.swift in Sources */,
 				3F1429E31FA649E000C9A1CE /* SignInVC.swift in Sources */,
+				3F91B8D81FA6F14C00291C1C /* RoundBtn.swift in Sources */,
 				3F1429E11FA649E000C9A1CE /* AppDelegate.swift in Sources */,
+				3F91B8D61FA6EF3600291C1C /* FancyView.swift in Sources */,
+				3F91B8D41FA6EF0200291C1C /* Constants.swift in Sources */,
+				3F91B8DC1FA6F7DC00291C1C /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +325,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -347,6 +376,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
