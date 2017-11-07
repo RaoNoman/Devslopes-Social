@@ -13,11 +13,18 @@
 		3F1429E81FA649E000C9A1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1429E71FA649E000C9A1CE /* Assets.xcassets */; };
 		3F1429EB1FA649E000C9A1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1429E91FA649E000C9A1CE /* LaunchScreen.storyboard */; };
 		3F1429F31FA64AC900C9A1CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F1429F21FA64AC900C9A1CE /* GoogleService-Info.plist */; };
+		3F17DB091FA891B000BFEECC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17DB081FA891B000BFEECC /* CircleImage.swift */; };
+		3F1C188D1FB17C9400F69D0A /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C188C1FB17C9400F69D0A /* CircleImageView.swift */; };
+		3F2D21C91FAB077800A0BCED /* DatabaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D21C81FAB077800A0BCED /* DatabaseServices.swift */; };
+		3F4F8D9F1FB0414F00081330 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F8D9E1FB0414F00081330 /* Post.swift */; };
+		3F77CB881FAA463B00722211 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77CB871FAA463B00722211 /* PostCell.swift */; };
+		3F77CB8A1FAA4EB100722211 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77CB891FAA4EB100722211 /* ProfileImage.swift */; };
 		3F91B8D41FA6EF0200291C1C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D31FA6EF0200291C1C /* Constants.swift */; };
 		3F91B8D61FA6EF3600291C1C /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D51FA6EF3600291C1C /* FancyView.swift */; };
 		3F91B8D81FA6F14C00291C1C /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D71FA6F14C00291C1C /* RoundBtn.swift */; };
 		3F91B8DA1FA6F30800291C1C /* FancyFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8D91FA6F30800291C1C /* FancyFields.swift */; };
 		3F91B8DC1FA6F7DC00291C1C /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91B8DB1FA6F7DC00291C1C /* FancyBtn.swift */; };
+		3FFD38281FA861C80071A047 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD38271FA861C70071A047 /* FeedVC.swift */; };
 		D79F1C5320373498AEB705C2 /* Pods_devslopes_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3ED385503E2DBDEAE6023F /* Pods_devslopes_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,11 +37,19 @@
 		3F1429EA1FA649E000C9A1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1429EC1FA649E000C9A1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1429F21FA64AC900C9A1CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F17DB081FA891B000BFEECC /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3F1C188C1FB17C9400F69D0A /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		3F2D21C81FAB077800A0BCED /* DatabaseServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseServices.swift; sourceTree = "<group>"; };
+		3F4F8D9E1FB0414F00081330 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3F77CB871FAA463B00722211 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3F77CB891FAA4EB100722211 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		3F91B8D31FA6EF0200291C1C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3F91B8D51FA6EF3600291C1C /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		3F91B8D71FA6F14C00291C1C /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		3F91B8D91FA6F30800291C1C /* FancyFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyFields.swift; sourceTree = "<group>"; };
 		3F91B8DB1FA6F7DC00291C1C /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		3FFD38261FA8312E0071A047 /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
+		3FFD38271FA861C70071A047 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		5E3ED385503E2DBDEAE6023F /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C618DBA7A2A12C8502CD2F94 /* Pods-devslopes-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.release.xcconfig"; sourceTree = "<group>"; };
 		FD8EE8A14F362FCA378C3060 /* Pods-devslopes-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +70,7 @@
 		3F1429D41FA649E000C9A1CE = {
 			isa = PBXGroup;
 			children = (
+				3F2D21C71FAB074A00A0BCED /* Services */,
 				3F1429DF1FA649E000C9A1CE /* devslopes-social */,
 				3F1429DE1FA649E000C9A1CE /* Products */,
 				875D827D93B1BBC568FE870A /* Pods */,
@@ -73,6 +89,7 @@
 		3F1429DF1FA649E000C9A1CE /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				3FFD38261FA8312E0071A047 /* devslopes-social.entitlements */,
 				3F91B8D21FA6EEF200291C1C /* Utilities */,
 				3F1429F61FA64EA300C9A1CE /* Model */,
 				3F1429F51FA64E9B00C9A1CE /* View */,
@@ -91,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				3F1429E21FA649E000C9A1CE /* SignInVC.swift */,
+				3FFD38271FA861C70071A047 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -102,6 +120,10 @@
 				3F91B8D71FA6F14C00291C1C /* RoundBtn.swift */,
 				3F91B8D91FA6F30800291C1C /* FancyFields.swift */,
 				3F91B8DB1FA6F7DC00291C1C /* FancyBtn.swift */,
+				3F17DB081FA891B000BFEECC /* CircleImage.swift */,
+				3F77CB871FAA463B00722211 /* PostCell.swift */,
+				3F77CB891FAA4EB100722211 /* ProfileImage.swift */,
+				3F1C188C1FB17C9400F69D0A /* CircleImageView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -109,8 +131,17 @@
 		3F1429F61FA64EA300C9A1CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3F4F8D9E1FB0414F00081330 /* Post.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		3F2D21C71FAB074A00A0BCED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D21C81FAB077800A0BCED /* DatabaseServices.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		3F91B8D21FA6EEF200291C1C /* Utilities */ = {
@@ -175,6 +206,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8Q5S5VD964;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -251,15 +287,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -277,11 +321,18 @@
 			files = (
 				3F91B8DA1FA6F30800291C1C /* FancyFields.swift in Sources */,
 				3F1429E31FA649E000C9A1CE /* SignInVC.swift in Sources */,
+				3F1C188D1FB17C9400F69D0A /* CircleImageView.swift in Sources */,
 				3F91B8D81FA6F14C00291C1C /* RoundBtn.swift in Sources */,
 				3F1429E11FA649E000C9A1CE /* AppDelegate.swift in Sources */,
+				3F4F8D9F1FB0414F00081330 /* Post.swift in Sources */,
+				3FFD38281FA861C80071A047 /* FeedVC.swift in Sources */,
+				3F17DB091FA891B000BFEECC /* CircleImage.swift in Sources */,
 				3F91B8D61FA6EF3600291C1C /* FancyView.swift in Sources */,
 				3F91B8D41FA6EF0200291C1C /* Constants.swift in Sources */,
+				3F77CB8A1FAA4EB100722211 /* ProfileImage.swift in Sources */,
 				3F91B8DC1FA6F7DC00291C1C /* FancyBtn.swift in Sources */,
+				3F2D21C91FAB077800A0BCED /* DatabaseServices.swift in Sources */,
+				3F77CB881FAA463B00722211 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +458,8 @@
 			baseConfigurationReference = FD8EE8A14F362FCA378C3060 /* Pods-devslopes-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8Q5S5VD964;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -421,6 +474,8 @@
 			baseConfigurationReference = C618DBA7A2A12C8502CD2F94 /* Pods-devslopes-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8Q5S5VD964;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
